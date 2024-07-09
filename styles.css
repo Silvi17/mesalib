@@ -1,0 +1,200 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Tarjetas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul li {
+    margin: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.card {
+    background-color:rgb(237, 119, 119);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+h2 {
+    color: #444;
+}
+.question {
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px;
+}
+.answer {
+    font-size: 16px;
+    line-height: 1.6;
+    display: none;
+    margin-left: 20px;
+    padding: auto;
+}
+
+
+/* Encabezado */
+header {
+    background-color:indianred;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Estilos para el logo y el título */
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+.logo img {
+    width: 60px; /* Tamaño del logo ajustable según sea necesario */
+    height: auto;
+    border-radius: 50%;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color:orchid;
+}
+
+/* Contenido principal */
+main {
+    padding: 2rem 0;
+}
+
+section {
+    background-color: #fff; /* Fondo blanco */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Pie de página */
+footer {
+    color: #fff;
+    background-color: indianred;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Tamaño de fuente reducido para pantallas pequeñas */
+    }
+
+    nav ul li a {
+        padding: 8px 12px; /* Espaciado reducido para enlaces de navegación */
+    }
+
+    section {
+        padding: 1.5rem; /* Espaciado reducido para secciones en pantallas pequeñas */
+    }
+
+    .email-form input[type="email"] {
+        width: 100%; /* Ancho completo para input de correo en pantallas pequeñas */
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: calc(33.333% - 20px); /* Ajusta este valor si cambias el margen */
+    }
+}
